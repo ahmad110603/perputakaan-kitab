@@ -1,0 +1,34 @@
+{
+  "kitab": [
+    {
+      "id": 1,
+      "nama": "Shahih Bukhari",
+      "kategori": "Hadits",
+      "penulis": "Imam Bukhari"
+    },
+    {
+      "id": 2,
+      "nama": "Shahih Muslim",
+      "kategori": "Hadits",
+      "penulis": "Imam Muslim"
+    },
+    {
+      "id": 3,
+      "nama": "Sunan Abu Dawud",
+      "kategori": "Hadits",
+      "penulis": "Abu Dawud"
+    },
+    {
+      "id": 4,
+      "nama": "Sunan Tirmidzi",
+      "kategori": "Hadits",
+      "penulis": "Tirmidzi"
+    },
+    {
+      "id": 5,
+      "nama": "Riyadhus Shalihin",
+      "kategori": "Akhlaq",
+      "penulis": "Imam Nawawi"
+    }
+  ]
+}
