@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/book_list_screen.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Perpustakaan Kitab',
+      title: 'Hadith API App',
+      home: const BookListScreen(),
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
     );
   }
 }
