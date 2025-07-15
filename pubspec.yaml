@@ -10,12 +10,20 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  http: ^0.13.6 # ✅ Tambahkan di sini dengan spasi yang pas
+  http: ^0.13.6
   shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/hn98.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/hn98.png"
